@@ -1,7 +1,7 @@
 pragma solidity ^0.6.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.1.0/contracts/math/SafeMath.sol";
-import "./AdRewardsToken.sol";
+import "https://github.com/MyBlokchainGuru/RewardsPointsApp/blob/main/contracts/AdRewardsToken.sol";
 
 contract AdRewards {
   using SafeMath for uint256;
