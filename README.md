@@ -1,4 +1,4 @@
-# RewardsPointsApp
+# RewardsPointsApp - wip
 
 A webapp built on react, solidity, javascript, css and html where users can sign a transaction with their ethereum wallet, watch a google adsense/other advertisement for 10 seconds, then after 10 seconds a button appears where they can load a new ad and they can sign another transaction to start the process over again. This process can be done once every minute and the user accrues 10 points per advertisement tracked via wallet signatures. The user can only load a new ad if they sign another ethereum wallet transaction. The user can claim all points through a form that only appears if they interact with a smart contract and receive a "success" response through an ABI call. The form to claim only appears after an on chain verification of their ethereum wallet signature. The form collects the following info: Name, Shipping Address, ethereum wallet address from signed transaction and sends an email once a day if the ABI call from the smart contract redeem function returns a "success" message. Has functionality in the web page that disables all functions if adblock is detected.
 
